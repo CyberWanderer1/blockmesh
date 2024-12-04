@@ -13,7 +13,7 @@ echo -e "${GREEN}           VPS Monitoring Tool       ${NC}"
 echo "==================================="
 
 # Download the script
-wget -q https://raw.githubusercontent.com/rajeshpalei/CryptonodeHindi/refs/heads/main/vpshealth.sh && chmod +x vpshealth.sh
+wget -q https://raw.githubusercontent.com/CyberWanderer1/blockmesh/refs/heads/main/monitor.sh && chmod +x monitor.sh
 
 # Install monitoring tools
 if ! command -v glances &> /dev/null; then
